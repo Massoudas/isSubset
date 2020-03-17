@@ -1,6 +1,6 @@
 public class IsSubset {
     public static void main(String[] args) {
-        int[] array2={1,6,5};
+        int[] array2={1,6,5,8};
         int[] array1= {1,4,7,3,5,6};
         isSubst(array1,array2);
 
@@ -30,6 +30,7 @@ public class IsSubset {
             isSub=true;
             System.out.println("Yes, Array2 is subset of array1");
         }
+        if(isSub==false) System.out.println("None of the arrays are the other one's subset");
         return isSub;
     }
 }
